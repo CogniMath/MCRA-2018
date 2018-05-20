@@ -7,3 +7,21 @@ Aquí se presentan los pasos para la instalación de Miniconda 3 en un sistema o
 ```
 $ conda info
 ```
+4. Crear un ambiente en conda: (este ambiente es específico para el MCRA-2018)
+```
+$ conda create --name MCRA2018 python=3.6 numpy scipy matplotlib h5py pandas ipython jupyter cython seaborn networkx orange3
+```
+5. Activar el ambiente creado
+```
+$ activate MCRA2018
+```
+6. Una vez abierto el ambiente probar abrir jupyter notebook
+```
+(MCRA2018) $ jupyter notebook
+```
+7. Para cerrar el notebook de jupyter, cierre primero el explorador y posteriormente en el Anaconda Prompt teclee ctrl + c.
+8. Para desactivar el ambiente creado escriba la orden:
+```
+$ deactivate
+```
+y con esto estará listo para el taller MCRA-2018.
