@@ -4,5 +4,6 @@ Aquí se presentan los pasos para la instalación de Miniconda 3 en un sistema o
  * Se recomienda que en la instalación no se instale de manera global, es decir, instalarlo solo para el usuario. Adicionalmente, NO seleccione la opción de usar el ambiente PATH (no añadir a PATH).
 2. Posteriormente a la instalación encontrará en todos sus programas uno llamado Anaconda Prompt, abralo.
 3. Escriba el siguiente comando (verá la versión de conda que se ha instalado en su equipo junto con otros datos)
+```
 $ conda info
-
+```
