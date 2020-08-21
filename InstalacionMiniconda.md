@@ -9,7 +9,7 @@ $ conda info
 ```
 4. Crear un ambiente en conda: (este ambiente es específico para el MCRA-2018)
 ```
-$ conda create --name MCRA2018 python=3.6 numpy scipy matplotlib h5py pandas ipython jupyter cython seaborn networkx orange3
+$ conda create --name MCRA2018 python=3.7 numpy scipy matplotlib h5py pandas ipython jupyter cython seaborn networkx orange3
 ```
 5. Activar el ambiente creado
 ```
